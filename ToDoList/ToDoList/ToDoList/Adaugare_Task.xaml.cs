@@ -12,23 +12,30 @@ namespace ToDoList
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Adaugare_Task : ContentPage
     {
+        bool isEdit = false;
+        string oldName;
+
         public Adaugare_Task(string oldName)
         {
-            /*
-            if(oldName!=null)
-            {
-                Intrare.Text = oldName;
-            }
-            */
-
             InitializeComponent();
+            
+            if (oldName!=null)
+            {
+                isEdit = true;
+                Intrare.Text = oldName;
+                this.oldName = oldName;
+            }
+
           
         } 
 
 
         private async void Save_Task(object sender, EventArgs e)
         {
-
+            if (isEdit)
+            {
+                ToDoPage.OldItemName = oldName;
+            }
             ToDoPage.NewItemName = Intrare.Text;            
             await Navigation.PopModalAsync();
         }

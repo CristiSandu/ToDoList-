@@ -15,7 +15,9 @@ namespace ToDoList
     {
 
         public static string NewItemName;
-        public ObservableCollection<Element_Task> lista ;
+        public static string OldItemName;
+
+        public ObservableCollection<Element_Task> lista;
         public ToDoPage()
         {
             InitializeComponent();
@@ -26,15 +28,29 @@ namespace ToDoList
         protected override void OnAppearing()
         {
             base.OnAppearing();
-            if(NewItemName != null)
+            if (NewItemName != null)
             {
-                lista.Add(new Element_Task { Name = NewItemName });
-                NewItemName = null;
+                if (OldItemName == null) //add
+                {
+                    lista.Add(new Element_Task { Name = NewItemName });
+                    NewItemName = null;
+                }
+                else // edit
+                {
+                    Element_Task oldItem = lista.FirstOrDefault(x => OldItemName == x.Name);
+                    if (oldItem != null)
+                    {
+                        oldItem.Name = NewItemName;
+                    }
+
+                    OldItemName = null;
+                    NewItemName = null;
+                }
             }
-            
+
         }
- 
-        private async  void AddTask(object sender, EventArgs e)
+
+        private async void AddTask(object sender, EventArgs e)
         {
             await Navigation.PushModalAsync(new Adaugare_Task(null));
         }
@@ -44,7 +60,14 @@ namespace ToDoList
             Element_Task task = ((Button)sender).BindingContext as Element_Task;
 
             string oldName = task.Name;
+            await Navigation.PushModalAsync(new Adaugare_Task(oldName));
 
+        }
+
+        private void Delete_Task(object sender, EventArgs e)
+        {
+
+            Element_Task task = ((Button)sender).BindingContext as Element_Task;
             if (task == null)
             {
                 return;
@@ -52,22 +75,7 @@ namespace ToDoList
             else
             {
                 lista.Remove(task);
-            }
-
-            await Navigation.PushModalAsync(new Adaugare_Task(oldName));
-
-        }
-
-        private void Delete_Task(object sender, EventArgs e)
-        {
-             
-            Element_Task task = ((Button)sender).BindingContext as Element_Task;
-            if(task == null)
-            {
-                return;
-            }else
-            {
-                lista.Remove(task);
+                sender = null;
             }
         }
     }

@@ -15,15 +15,21 @@
             <ListView.ItemTemplate>
                 <DataTemplate>
                     <ViewCell BindingContext="Element_Task">
-                        <StackLayout Orientation="Vertical">
-                            <StackLayout Orientation="Horizontal">
-                                <Label Text="{Binding Name}" />
+                        <StackLayout Orientation="Horizontal">
 
-                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
-                                    <Button Text="Delete" Clicked="Delete_Task" />
-                                    <Button Text="Edit" Clicked="Edit_Task" />
-                                </StackLayout>
-                            </StackLayout>
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="2*" />
+                                    <RowDefinition Height="*" />
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                            </Grid>
+
+                            <Label Text="{Binding Name}" HorizontalOptions="Start" WidthRequest="250"  Grid.Row="0"/>
+                            <Button Text="Delete" Clicked="Delete_Task"  HorizontalOptions="End"  Grid.Row="1"/>
+                            <Button Text="Edit" Clicked="Edit_Task" HorizontalOptions="End"  Grid.Row="2"/>
+
+                            
                         </StackLayout>
                     </ViewCell>
                 </DataTemplate>
