@@ -12,11 +12,19 @@ namespace ToDoList
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Adaugare_Task : ContentPage
     {
-        public Adaugare_Task()
+        public Adaugare_Task(string oldName)
         {
+            /*
+            if(oldName!=null)
+            {
+                Intrare.Text = oldName;
+            }
+            */
+
             InitializeComponent();
           
-        }
+        } 
+
 
         private async void Save_Task(object sender, EventArgs e)
         {

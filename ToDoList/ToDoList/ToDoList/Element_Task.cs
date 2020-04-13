@@ -20,7 +20,7 @@ namespace ToDoList
                 OnPropertyChanged();
             }
         }
-
+      
         public event PropertyChangedEventHandler PropertyChanged;
 
         void OnPropertyChanged(string propertyName = null)

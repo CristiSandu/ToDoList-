@@ -18,7 +18,11 @@
                         <StackLayout Orientation="Vertical">
                             <StackLayout Orientation="Horizontal">
                                 <Label Text="{Binding Name}" />
-                                <Button Text="Delete" Clicked="Delete_Task" HorizontalOptions="EndAndExpand"/>
+
+                                <StackLayout Orientation="Horizontal" HorizontalOptions="EndAndExpand">
+                                    <Button Text="Delete" Clicked="Delete_Task" />
+                                    <Button Text="Edit" Clicked="Edit_Task" />
+                                </StackLayout>
                             </StackLayout>
                         </StackLayout>
                     </ViewCell>

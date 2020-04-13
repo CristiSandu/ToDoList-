@@ -36,11 +36,25 @@ namespace ToDoList
  
         private async  void AddTask(object sender, EventArgs e)
         {
-            await Navigation.PushModalAsync(new Adaugare_Task());
+            await Navigation.PushModalAsync(new Adaugare_Task(null));
         }
 
-        private void Edit_List(object sender, EventArgs e)
+        private async void Edit_Task(object sender, EventArgs e)
         {
+            Element_Task task = ((Button)sender).BindingContext as Element_Task;
+
+            string oldName = task.Name;
+
+            if (task == null)
+            {
+                return;
+            }
+            else
+            {
+                lista.Remove(task);
+            }
+
+            await Navigation.PushModalAsync(new Adaugare_Task(oldName));
 
         }
 
