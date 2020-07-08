@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj": {}
+    "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj": {
+    "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
+        "projectUniqueName": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
         "projectName": "ToDoList.Android",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.Android\\obj\\",
+        "projectPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.Android\\ToDoList.Android.csproj",
+        "packagesPath": "C:\\Users\\cryst\\.nuget\\packages\\",
+        "outputPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.Android\\obj\\",
         "projectStyle": "PackageReference",
         "skipContentFileWrite": true,
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cryst\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -32,8 +32,8 @@
         "frameworks": {
           "monoandroid90": {
             "projectReferences": {
-              "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
-                "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
+              "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
+                "projectPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
               }
             }
           }
@@ -54,20 +54,20 @@
         }
       }
     },
-    "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
+    "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+        "projectUniqueName": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
         "projectName": "ToDoList",
-        "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\obj\\",
+        "projectPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj",
+        "packagesPath": "C:\\Users\\cryst\\.nuget\\packages\\",
+        "outputPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\cryst\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -117,7 +117,7 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
         }
       }
     }

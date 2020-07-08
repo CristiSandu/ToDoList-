@@ -8140,18 +8140,18 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {},
+    "C:\\Users\\cryst\\.nuget\\packages\\": {},
     "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.UWP\\ToDoList.UWP.csproj",
+      "projectUniqueName": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.UWP\\ToDoList.UWP.csproj",
       "projectName": "ToDoList.UWP",
-      "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.UWP\\ToDoList.UWP.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList.UWP\\obj\\",
+      "projectPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.UWP\\ToDoList.UWP.csproj",
+      "packagesPath": "C:\\Users\\cryst\\.nuget\\packages\\",
+      "outputPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList.UWP\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
@@ -8159,7 +8159,7 @@
         "C:\\Program Files (x86)\\Microsoft SDKs\\UWPNuGetPackages\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\cryst\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -8173,8 +8173,8 @@
       "frameworks": {
         "uap10.0.16299": {
           "projectReferences": {
-            "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
-              "projectPath": "C:\\Users\\Administrator\\Documents\\GitHub\\ToDoList-\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
+            "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj": {
+              "projectPath": "S:\\Cristi\\App-Xamarin\\ToDoList 1.0\\ToDoList\\ToDoList\\ToDoList\\ToDoList.csproj"
             }
           }
         }

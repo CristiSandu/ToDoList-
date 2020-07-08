@@ -29,3 +29,19 @@ C:\Users\Administrator\Documents\GitHub\ToDoList-\ToDoList\ToDoList\ToDoList\obj
 C:\Users\Administrator\Documents\GitHub\ToDoList-\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.dll
 C:\Users\Administrator\Documents\GitHub\ToDoList-\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ref\ToDoList.dll
 C:\Users\Administrator\Documents\GitHub\ToDoList-\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.pdb
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.deps.json
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.dll
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ref\ToDoList.dll
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\bin\Debug\netstandard2.0\ToDoList.pdb
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.csprojAssemblyReference.cache
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\Adaugare_Task.xaml.g.cs
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\App.xaml.g.cs
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoPage.xaml.g.cs
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.AssemblyInfoInputs.cache
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.AssemblyInfo.cs
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.csproj.CoreCompileInputs.cache
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\XamlC.stamp
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.dll
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ref\ToDoList.dll
+S:\Cristi\App-Xamarin\ToDoList 1.0\ToDoList\ToDoList\ToDoList\obj\Debug\netstandard2.0\ToDoList.pdb
